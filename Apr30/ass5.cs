@@ -5,22 +5,23 @@ class Program
     static void Main()
     {
         int[] numbers = { 3, 5, 7, 8, 2, 9, 10 };
-        int target = 7; 
-        int index = -1;
+
+        Console.Write("Enter the number to search: ");
+        int target = int.Parse(Console.ReadLine());
+
+        bool found = false;
+
         for (int i = 0; i < numbers.Length; i++)
         {
             if (numbers[i] == target)
             {
-                index = i;
+                Console.WriteLine($"Element found at index: {i}");
+                found = true;
                 break;
             }
         }
 
-        if (index != -1)
-        {
-            Console.WriteLine(index);
-        }
-        else
+        if (!found)
         {
             Console.WriteLine("Not found");
         }
