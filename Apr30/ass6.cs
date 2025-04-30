@@ -1,3 +1,9 @@
+//count frequency of each element for {1,2,1,3,2,1}
+//Output: 1 occurs 3 times
+//2 occurs 2 times
+//3 occurs 1 time
+
+
 using System;
 
 class Program
