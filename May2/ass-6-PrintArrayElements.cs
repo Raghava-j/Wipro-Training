@@ -5,7 +5,7 @@ class Program
     // Recursive method to print array elements
     static void PrintArray(int[] arr, int index)
     {
-        if (index >= arr.Length)
+        if (index == arr.Length)
             return;
 
         Console.WriteLine(arr[index]);
