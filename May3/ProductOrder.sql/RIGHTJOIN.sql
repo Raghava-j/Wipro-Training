@@ -5,4 +5,4 @@ SELECT
 	 Orders.Quantity,
 	 Orders.OrderDate
 From Products
-LEFT JOIN Orders ON Products.ProductID = Orders.ProductID;
+RIGHT JOIN Orders ON Products.ProductID = Orders.ProductID;
