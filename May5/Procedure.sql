@@ -1,0 +1,1 @@
+EXEC GetOrdersByProduct @ProductId = 1;
