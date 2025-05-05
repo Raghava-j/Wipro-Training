@@ -1,6 +1,8 @@
 SELECT
      Products.ProductID,
 	 Products.ProductName,
+     Products.Price,
+     'HigherEndProduct' AS ProductCategory,
 	 Orders.OrderID,
 	 Orders.Quantity,
 	 Orders.OrderDate
