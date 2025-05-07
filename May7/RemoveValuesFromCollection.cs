@@ -10,8 +10,8 @@ class Program
         list.Add(42);
         list.Add(3.14);
 
-        list.Remove(42);
-        list.RemoveAt(0);
+        list.Remove(42);           // Remove the element with value 42
+        list.RemoveAt(0);          // Removes the element at index 0
         Console.WriteLine("Count after removal: " + list.Count);
 
         foreach (var item in list)
