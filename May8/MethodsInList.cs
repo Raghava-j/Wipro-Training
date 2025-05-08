@@ -5,7 +5,7 @@ class Program
 {
     static void Main()
     {
-        List<string> fruits = new List<string> () ("Apple", "Banana", "Cherry");
+        List<string> fruits = new List<string> () {"Apple", "Banana", "Cherry"};
 
         // Adding an element
         fruits.Add("Mango");
