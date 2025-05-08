@@ -25,5 +25,10 @@ class Program
             Console.WriteLine($"{check} is not in the employee list.");
         }
         Console.WriteLine("Total number of employees: " + employees.Count);
+        Console.WriteLine("Current employees:");
+        foreach (var employee in employees)
+        {
+            Console.WriteLine(employee);
+        }
     }
 }
