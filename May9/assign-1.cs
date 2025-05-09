@@ -22,7 +22,7 @@ namespace ConsoleApp1
         public void UpdateSalary(decimal newSalary)
         {
             Salary = newSalary;
-            Console.WriteLine($"Salary updated to ${Salary:F2}");
+            Console.WriteLine($"Salary updated to ${Salary}");
         }
 
         public decimal AnnualSalary()
@@ -52,9 +52,9 @@ namespace ConsoleApp1
             employee1.UpdateSalary(45000);
             employee2.UpdateSalary(40000);
 
-            Console.WriteLine($"Annual Salary: ${employee1.AnnualSalary():F2}");
+            Console.WriteLine($"Annual Salary: ${employee1.AnnualSalary()}");
 
-            Console.WriteLine($"Annual Salary: ${employee2.AnnualSalary():F2}");
+            Console.WriteLine($"Annual Salary: ${employee2.AnnualSalary()}");
 
 
         }
