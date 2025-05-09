@@ -5,26 +5,31 @@ class Employee
     {
         Console.WriteLine("Employee is working");
     }
-}
-class Manager : Employee
+using System;
+class Shape
 {
-    public override void Work()
+    public virtual void Draw()
     {
-        Console.WriteLine("Manager is supervising");
+        Console.WriteLine("Drawing a Shape");
+    }
+}
+
+class Circle : Shape
+{
+    public override void Draw()
+    {
+        Console.WriteLine("Drawing a Circle");
     }
 }
 class Program
 {
     static void Main()
     {
-        Employee emp = new Employee();
-        emp.Work(); // calls base method
-
-        Manager mgr = new Manager();
-        mgr.Work(); // calls override method
-
-        Employee polyEmp = new Manager();
-        polyEmp.Work(); // calls overridden method
-
+        Shape myShape = new Circle();
+        myShape.Draw();
+        Circle myCircle = new Shape();
+        myCircle.Draw();
+        Shape polyshape = new Circle();
+        polyshape.Draw();
     }
 }
