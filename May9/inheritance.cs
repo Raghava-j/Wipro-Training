@@ -1,43 +1,60 @@
 using System;
-namespace ConsoleApp1;
-class Animal
-{
-    public string Name;
-    public string Species;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-    // Method to display animal details
-    public void DisplayAnimal()
+namespace ConsoleApp1
+{
+    internal class Animal
     {
-        Console.WriteLine($"Animal Name: {Name}");
-        Console.WriteLine($"Species: {Species}");
+        public string Name;
+        public string Species;
+
+        // Method to display animal details
+        public void DisplayAnimal()
+        {
+            Console.WriteLine($"Animal Name: {Name}");
+            Console.WriteLine($"Species: {Species}");
+        }
     }
+
+
 }
 
-// Derived class inheriting from Animal
-class Dog : Animal
+
+using System;
+namespace ConsoleApp1
 {
-    public string Breed;
-    // Method to display dog details
-    public void DisplayDog()
+
+    // Derived class inheriting from Animal
+    class Dog : Animal
     {
-        Console.WriteLine($"Breeds: {Breed}");
+        public string Breed;
+
+        // Method to display dog details
+        public void DisplayDog()
+        {
+            Console.WriteLine($"Breeds: {Breed}");
+        }
     }
-}
 
-class Program
-{
-    static void Main()
+    class Program
     {
-        // Creating an object og Dog class
-        Dog.myDog = new Dog();
-        myDog.Name = "Buddy";
-        myDog.Species = "Canine";
-        myDog.Breed = "Labrador";
+        static void Main()
+        {
+            // Creating an object og Dog class
+            Dog myDog = new Dog();
+            myDog.Name = "Buddy";
+            myDog.Species = "Canine";
+            myDog.Breed = "Labrador";
 
-        // Display animal details
-        myDog.DisplayAnimal();
 
-        // Display dog-specific details
-        myDog.DisplayDog();
+            // Display animal details
+            myDog.DisplayAnimal();
+
+            // Display dog-specific details
+            myDog.DisplayDog();
+        }
     }
 }
