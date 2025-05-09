@@ -1,35 +1,33 @@
 using System;
-class Employee
-{
-    public virtual void Work()
-    {
-        Console.WriteLine("Employee is working");
-    }
-using System;
-class Shape
-{
-    public virtual void Draw()
-    {
-        Console.WriteLine("Drawing a Shape");
-    }
-}
 
-class Circle : Shape
+namespace ConsoleApp1
 {
-    public override void Draw()
+    class Shape
     {
-        Console.WriteLine("Drawing a Circle");
+        public virtual void Draw()
+        {
+            Console.WriteLine("Drawing a Shape");
+        }
     }
-}
-class Program
-{
-    static void Main()
+
+    class Circle : Shape
     {
-        Shape myShape = new Circle();
-        myShape.Draw();
-        Circle myCircle = new Shape();
-        myCircle.Draw();
-        Shape polyshape = new Circle();
-        polyshape.Draw();
+        public override void Draw()
+        {
+            Console.WriteLine("Drawing a Circle");
+        }
+    }
+    class Program
+    {
+        static void Main()
+        {
+            
+            Circle circle = new Circle();
+            circle.Draw();
+            Shape shape = new Shape();
+            shape.Draw();
+            Shape shapes = new Circle();
+            shapes.Draw();
+        }
     }
 }
