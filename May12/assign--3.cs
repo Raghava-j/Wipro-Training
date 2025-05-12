@@ -20,7 +20,7 @@ class Elephant : IAnimalActions
 {
     public void Eat()
     {
-        Console.WriteLine("Elephant is eating meat");
+        Console.WriteLine("Elephant is eating grass");
     }
     public void Sleep()
     {
