@@ -10,3 +10,12 @@ class Circle : IShape
         Console.WriteLine("Drawing a Circle");
     }
 }
+
+class Program
+{
+    static void Main()
+    {
+        Circle circle = new Circle();
+        circle.Draw();
+    }
+}
