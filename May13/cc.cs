@@ -27,13 +27,3 @@ class Program
     {
         FoodOrder ff = new FastFoodOrder();
         FoodOrder fd = new FineDiningOrder();
-
-        Console.WriteLine("Fast Food Order: ");
-        ff.OrderInfo();
-        ff.PlaceOrder("Burger");
-
-        Console.WriteLine("\nFine Dining Order");
-        fd.OrderInfo();
-        fd.PlaceOrder("Strak");
-    }
-}
