@@ -42,22 +42,14 @@ class Program
         {
             Console.WriteLine($"ID: {entry.Key}, Name: {entry.Value}");
         }
-        Console.WriteLine("\nEnter Employee ID to search:");
-        int searchId;
-        if (int.TryParse(Console.ReadLine(), out searchId))
+        int searchId = 105;
+        if (employeeDirectory.TryGrtValue(searchId, out string empName))
         {
-            if (employeeDirectory.TryGetValue(searchId, out string empName))
-            {
-                Console.WriteLine($"Employee Found: {empName}");
-            }
-            else
-            {
-                Console.WriteLine("Employee not found.");
-            }
+            Console.WriteLine($"\mEmployee Found with ID {searchId}: {empName}");
         }
         else
         {
-            Console.WriteLine("Invalid ID entered.");
+            Console.WriteLine($"\nEmployee with ID {searchId} not found");
         }
     }
 }
