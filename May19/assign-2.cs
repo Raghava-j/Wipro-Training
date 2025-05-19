@@ -7,7 +7,7 @@ class Employee
     public int EmployeeID { get; set; }
     public string Name { get; set; }
     public decimal Salary { get; set; }
-    public Employee (int id, string name, decimal salary)
+    public Employee(int id, string name, decimal salary)
     {
         EmployeeID = id;
         Name = name;
@@ -43,9 +43,9 @@ class Program
             Console.WriteLine($"ID: {entry.Key}, Name: {entry.Value}");
         }
         int searchId = 105;
-        if (employeeDirectory.TryGrtValue(searchId, out string empName))
+        if (employeeDirectory.TryGetValue(searchId, out string empName))
         {
-            Console.WriteLine($"\mEmployee Found with ID {searchId}: {empName}");
+            Console.WriteLine($"\nEmployee Found with ID {searchId}: {empName}");
         }
         else
         {
