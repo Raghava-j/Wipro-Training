@@ -1,3 +1,4 @@
+//Binary search and Linear search
 using System;
 using System.Collections.Generic;
 class SearchingComparison
