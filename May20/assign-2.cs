@@ -44,7 +44,7 @@ class SearchingComparison
         Array.Sort(arr);
         return arr;
     }
-    static void MAin(string[] args)
+    static void Main(string[] args)
     {
         int[] sortedArray = GenerateSortedArray(50, 1, 200);
         Random rand = new Random();
