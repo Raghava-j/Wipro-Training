@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WebApplication17\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB8F65-0FF9-49E1-AE39-D96E170078DF}|WebApplication17\\WebApplication17.csproj|c:\\users\\admin\\source\\repos\\webapplication17\\webapplication17\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB8F65-0FF9-49E1-AE39-D96E170078DF}|WebApplication17\\WebApplication17.csproj|solutionrelative:webapplication17\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFFB8F65-0FF9-49E1-AE39-D96E170078DF}|WebApplication17\\WebApplication17.csproj|c:\\users\\admin\\source\\repos\\webapplication17\\webapplication17\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFFB8F65-0FF9-49E1-AE39-D96E170078DF}|WebApplication17\\WebApplication17.csproj|solutionrelative:webapplication17\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication17\\WebApplication17\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "WebApplication17\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication17\\WebApplication17\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "WebApplication17\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:56:00.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WebApplication17\\WebApplication17\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication17\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WebApplication17\\WebApplication17\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication17\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T10:54:11.535Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
